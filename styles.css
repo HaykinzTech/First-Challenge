@@ -1,0 +1,70 @@
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  justify-content: center;
+  padding-top: 200px;
+  border-radius: 20px;
+  border-style: 5px;
+}
+
+.sedans {
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+  justify-content: center;
+  padding: 20px;
+}
+
+.suvs {
+  flex-direction: column;
+  background-color: hsl(184, 100%, 22%);
+  justify-content: center;
+  padding: 20px;
+}
+
+.luxury {
+  flex-direction: column;
+  background-color: hsl(179, 100%, 13%);
+  justify-content: center;
+  padding: 20px;
+}
+
+p {
+  width: 174px;
+  /* line-height: 1.5; */
+  padding-bottom: 20px;
+}
+
+button {
+  border-radius: 50px;
+  /* border: 100px; */
+  border-color: rgb(252, 252, 252);
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: green;
+}
+.b1{
+  color:hsl(31, 77%, 52%); ;
+}
+.b2{
+  color:hsl(184, 100%, 22%) ;
+}
+.b3{
+  color:hsl(179, 100%, 13%) ;
+}
+
+button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+}
